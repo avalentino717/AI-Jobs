@@ -1,59 +1,55 @@
-# AI&#x27;s Impact on Jobs
+# AI & Data Center Job Impact Visualizer 📊
 
-This is an [Observable Framework](https://observablehq.com/framework/) app. To install the required dependencies, run:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-datavis--ai--jobs.ellasuk.com-blue?style=for-the-badge&logo=globe)](https://datavis-ai-jobs.ellasuk.com)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/avalentino717/AI-Jobs/)
 
-```
-npm install
-```
+An interactive data visualization project exploring how Artificial Intelligence and data center infrastructure expand economic opportunities and drive net-positive job growth across all 50 U.S. states.
 
-Then, to start the local preview server, run:
+Created for the **Data Visualization course at DIS**.
 
-```
-npm run dev
-```
+---
 
-Then visit <http://localhost:3000> to preview your app.
+## Overview
 
-For more, see <https://observablehq.com/framework/getting-started>.
+As AI adoption accelerates, debate often centers on job displacement. This project provides an evidence-based counter-narrative by highlighting how the expansion of AI technologies and supporting physical infrastructure (data centers) acts as an economic catalyst. 
 
-## Project structure
+Through state-by-state statistical breakdowns, custom graphics, and interactive filtering, the platform illustrates the tangible employment benefits, capital investments, and newly emerging job roles brought by the AI boom.
 
-A typical Framework project looks like this:
+---
 
-```ini
-.
-├─ src
-│  ├─ components
-│  │  └─ timeline.js           # an importable module
-│  ├─ data
-│  │  ├─ launches.csv.js       # a data loader
-│  │  └─ events.json           # a static data file
-│  ├─ example-dashboard.md     # a page
-│  ├─ example-report.md        # another page
-│  └─ index.md                 # the home page
-├─ .gitignore
-├─ observablehq.config.js      # the app config file
-├─ package.json
-└─ README.md
-```
+## Key Features
 
-**`src`** - This is the “source root” — where your source files live. Pages go here. Each page is a Markdown file. Observable Framework uses [file-based routing](https://observablehq.com/framework/project-structure#routing), which means that the name of the file controls where the page is served. You can create as many pages as you like. Use folders to organize your pages.
+* **Interactive State-by-State Map:** Explore AI job growth, data center density, and economic metrics customized for every U.S. state.
+* **Data-Driven Insights:** Clear visualization of direct, indirect, and induced employment opportunities created by data center construction and operational AI integration.
+* **Dynamic Graphics & Dashboards:** Designed to make complex datasets accessible, intuitive, and engaging.
+* **Responsive Web Application:** Optimized for modern browsers with fluid interaction across screen sizes.
 
-**`src/index.md`** - This is the home page for your app. You can have as many additional pages as you’d like, but you should always have a home page, too.
+---
 
-**`src/data`** - You can put [data loaders](https://observablehq.com/framework/data-loaders) or static data files anywhere in your source root, but we recommend putting them here.
+## Project Architecture & Pipeline
 
-**`src/components`** - You can put shared [JavaScript modules](https://observablehq.com/framework/imports) anywhere in your source root, but we recommend putting them here. This helps you pull code out of Markdown files and into JavaScript modules, making it easier to reuse code across pages, write tests and run linters, and even share code with vanilla web applications.
+This project covers the full end-to-end data visualization lifecycle:
 
-**`observablehq.config.js`** - This is the [app configuration](https://observablehq.com/framework/config) file, such as the pages and sections in the sidebar navigation, and the app’s title.
+1. **Data Collection & Aggregation:** Sourced state-level employment metrics, data center locations, and tech growth statistics.
+2. **Transformation & Processing:** Cleaned, structured, and normalized raw data into visualizer-ready formats (JSON/CSV).
+3. **Frontend Development & Visualization:** Designed custom interactive charts, state maps, and responsive layouts.
+4. **Deployment:** Hosted as a public web application at [`datavis-ai-jobs.ellasuk.com`](https://datavis-ai-jobs.ellasuk.com).
 
-## Command reference
+---
 
-| Command           | Description                                              |
-| ----------------- | -------------------------------------------------------- |
-| `npm install`            | Install or reinstall dependencies                        |
-| `npm run dev`        | Start local preview server                               |
-| `npm run build`      | Build your static site, generating `./dist`              |
-| `npm run deploy`     | Deploy your app to Observable                            |
-| `npm run clean`      | Clear the local data loader cache                        |
-| `npm run observable` | Run commands like `observable help`                      |
+## Tech Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+* **Visualization Libraries:** Chart.js / D3.js *(or map/chart framework used)*
+* **Hosting & Deployment:** Web-hosted domain
+
+---
+
+## Getting Started Locally
+
+To run this repository locally on your machine:
+
+To run this repository locally on your machine:
+**Clone the repository:**
+    ```bash
+    git clone [https://github.com/avalentino717/AI-Jobs.git](https://github.com/avalentino717/AI-Jobs.git)
