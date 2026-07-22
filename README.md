@@ -52,4 +52,4 @@ To run this repository locally on your machine:
 To run this repository locally on your machine:
 **Clone the repository:**
     ```bash
-    git clone [https://github.com/avalentino717/AI-Jobs.git](https://github.com/avalentino717/AI-Jobs.git)
+    git clone [https://github.com/avalentino717/AI-Jobs.git](https://github.com/avalentino717/AI-Jobs.git)```
