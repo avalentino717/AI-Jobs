@@ -40,7 +40,7 @@ This project covers the full end-to-end data visualization lifecycle:
 ## Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-* **Visualization Libraries:** Chart.js / D3.js *(or map/chart framework used)*
+* **Visualization Libraries:** D3.js 
 * **Hosting & Deployment:** Web-hosted domain
 
 ---
